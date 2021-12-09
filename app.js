@@ -13,12 +13,14 @@ function clickHandler(){
         var gainper=(gain/buy)*100;
         var state="Congrats you have gained "+gain +" which is "+gainper+"% of your investment";
         message.innerText=state;
+        message.style.color="green";
     }
     else if(today<buy){
         var loss=(buy-today)*no;
         var lossper=(loss/buy)*100;
         var state="Sorry you have lost "+loss+" which is "+lossper+"% of your investment";
         message.innerText=state;
+        message.style.color="red";
     }
     else{
         message.innerText="No gain, no loss";
