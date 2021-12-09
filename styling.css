@@ -1,0 +1,32 @@
+.container{
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    
+}
+body{
+    max-width: 40%;
+    margin: auto;
+    text-align: center;
+   height: 100%;
+}
+.label-html{
+    display: block;
+    width: 100%;
+    margin: 1rem;
+}
+.angle{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.check-button{
+    margin-top: 1rem;
+}
+p{
+    max-width: 500rem;
+    margin: 3rem auto;
+    text-align:center
+
+}
